@@ -1,7 +1,7 @@
 {
   "completed_ids": [],
-  "pending_id": null,
-  "pending_date": null,
+  "pending_id": "valid-parentheses",
+  "pending_date": "2026-07-16",
   "streak": 0,
   "last_completed_date": null,
   "by_tag": {},
