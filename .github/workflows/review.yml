@@ -1,0 +1,33 @@
+name: Review Submitted Solution
+
+on:
+  push:
+    paths:
+      - "solutions/pending/**"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run Reviewer + Doc Agent
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python agent/reviewer.py
+
+      - name: Commit reviewed solution + README
+        run: |
+          git config user.name "codesprint-ai-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add solutions README.md progress.json
+          git diff --cached --quiet || git commit -m "docs: review solution + update README"
+          git push

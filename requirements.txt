@@ -1,0 +1,4 @@
+# No external dependencies -- agent/ uses only the Python standard library
+# (urllib for HTTP calls) so the CI workflow doesn't need a pip install step.
+# If you'd rather use the official `anthropic` SDK instead of raw urllib,
+# add it here and update agent/reviewer.py's call_claude().

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "two-sum",
+    "title": "Two Sum",
+    "difficulty": "Easy",
+    "tags": ["array", "hash-map"],
+    "prompt": "Given an array of integers `nums` and an integer `target`, return the indices of the two numbers such that they add up to `target`. Assume exactly one solution exists, and you may not use the same element twice.",
+    "leetcode_url": "https://leetcode.com/problems/two-sum/"
+  },
+  {
+    "id": "valid-parentheses",
+    "title": "Valid Parentheses",
+    "difficulty": "Easy",
+    "tags": ["stack", "string"],
+    "prompt": "Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid (every open bracket is closed by the same type, in the correct order).",
+    "leetcode_url": "https://leetcode.com/problems/valid-parentheses/"
+  },
+  {
+    "id": "merge-two-sorted-lists",
+    "title": "Merge Two Sorted Lists",
+    "difficulty": "Easy",
+    "tags": ["linked-list", "recursion"],
+    "prompt": "Merge two sorted linked lists and return the merged list as one sorted linked list, built by splicing together the nodes of the first two lists.",
+    "leetcode_url": "https://leetcode.com/problems/merge-two-sorted-lists/"
+  },
+  {
+    "id": "binary-search",
+    "title": "Binary Search",
+    "difficulty": "Easy",
+    "tags": ["binary-search", "array"],
+    "prompt": "Given a sorted array of integers `nums` and a target value, return the index of target if it exists, otherwise return -1. Solve it in O(log n) time.",
+    "leetcode_url": "https://leetcode.com/problems/binary-search/"
+  },
+  {
+    "id": "maximum-subarray",
+    "title": "Maximum Subarray",
+    "difficulty": "Medium",
+    "tags": ["array", "dynamic-programming", "divide-and-conquer"],
+    "prompt": "Given an integer array `nums`, find the contiguous subarray (containing at least one number) which has the largest sum, and return that sum.",
+    "leetcode_url": "https://leetcode.com/problems/maximum-subarray/"
+  },
+  {
+    "id": "longest-substring-without-repeating-characters",
+    "title": "Longest Substring Without Repeating Characters",
+    "difficulty": "Medium",
+    "tags": ["string", "sliding-window", "hash-map"],
+    "prompt": "Given a string `s`, find the length of the longest substring without repeating characters.",
+    "leetcode_url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/"
+  },
+  {
+    "id": "3sum",
+    "title": "3Sum",
+    "difficulty": "Medium",
+    "tags": ["array", "two-pointers", "sorting"],
+    "prompt": "Given an integer array `nums`, return all the triplets `[nums[i], nums[j], nums[k]]` such that i != j != k and nums[i] + nums[j] + nums[k] == 0. The solution set must not contain duplicate triplets.",
+    "leetcode_url": "https://leetcode.com/problems/3sum/"
+  },
+  {
+    "id": "linked-list-cycle",
+    "title": "Linked List Cycle",
+    "difficulty": "Easy",
+    "tags": ["linked-list", "two-pointers"],
+    "prompt": "Given the head of a linked list, determine if the linked list has a cycle in it, without using extra space (Floyd's cycle detection).",
+    "leetcode_url": "https://leetcode.com/problems/linked-list-cycle/"
+  },
+  {
+    "id": "top-k-frequent-elements",
+    "title": "Top K Frequent Elements",
+    "difficulty": "Medium",
+    "tags": ["heap", "hash-map", "sorting"],
+    "prompt": "Given an integer array `nums` and an integer `k`, return the `k` most frequent elements. Try to beat O(n log n) time complexity.",
+    "leetcode_url": "https://leetcode.com/problems/top-k-frequent-elements/"
+  },
+  {
+    "id": "coin-change",
+    "title": "Coin Change",
+    "difficulty": "Medium",
+    "tags": ["dynamic-programming"],
+    "prompt": "Given an array of coin denominations and a target amount, return the fewest number of coins needed to make up that amount. Return -1 if it cannot be made.",
+    "leetcode_url": "https://leetcode.com/problems/coin-change/"
+  },
+  {
+    "id": "number-of-islands",
+    "title": "Number of Islands",
+    "difficulty": "Medium",
+    "tags": ["graph", "dfs", "bfs", "matrix"],
+    "prompt": "Given an `m x n` 2D binary grid representing a map of '1's (land) and '0's (water), return the number of islands (connected land, 4-directionally).",
+    "leetcode_url": "https://leetcode.com/problems/number-of-islands/"
+  },
+  {
+    "id": "kth-largest-element",
+    "title": "Kth Largest Element in an Array",
+    "difficulty": "Medium",
+    "tags": ["heap", "quickselect", "sorting"],
+    "prompt": "Given an integer array `nums` and an integer `k`, return the kth largest element in the array (kth largest in sorted order, not the kth distinct element).",
+    "leetcode_url": "https://leetcode.com/problems/kth-largest-element-in-an-array/"
+  }
+]
