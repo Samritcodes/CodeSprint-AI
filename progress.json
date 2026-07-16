@@ -1,9 +1,21 @@
 {
-  "completed_ids": [],
-  "pending_id": "valid-parentheses",
-  "pending_date": "2026-07-16",
-  "streak": 0,
-  "last_completed_date": null,
-  "by_tag": {},
-  "history": []
+  "completed_ids": [
+    "valid-parentheses"
+  ],
+  "pending_id": null,
+  "pending_date": null,
+  "streak": 1,
+  "last_completed_date": "2026-07-16",
+  "by_tag": {
+    "stack": 1,
+    "string": 1
+  },
+  "history": [
+    {
+      "id": "valid-parentheses",
+      "title": "Valid Parentheses",
+      "difficulty": "Easy",
+      "date": "2026-07-16"
+    }
+  ]
 }

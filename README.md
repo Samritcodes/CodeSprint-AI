@@ -10,17 +10,22 @@ solution, generates the write-up, moves it into `solutions/`, and updates the st
 
 ---
 
-### 🔥 Current Streak: 0 days
+### 🔥 Current Streak: 1 day
 
-### ✅ Problems Solved: 0
+### ✅ Problems Solved: 1
 
 ### 📊 By Topic
 
-_No problems completed yet._
+| Tag | Count |
+|---|---|
+| stack | 1 |
+| string | 1 |
 
 ### 🕒 Recent History
 
-_No problems completed yet._
+| Date | Problem | Difficulty |
+|---|---|---|
+| 2026-07-16 | Valid Parentheses | Easy |
 
 
 ---
