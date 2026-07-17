@@ -2,8 +2,8 @@
   "completed_ids": [
     "valid-parentheses"
   ],
-  "pending_id": null,
-  "pending_date": null,
+  "pending_id": "two-sum",
+  "pending_date": "2026-07-17",
   "streak": 1,
   "last_completed_date": "2026-07-16",
   "by_tag": {
